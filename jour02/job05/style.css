@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 4096px;
+}
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    text-align: center;
+    background: rgb(156, 130, 138);
+background: linear-gradient(90deg, rgb(109, 26, 44) 0%, rgb(122, 86, 122) 10%);
+}
+progress {
+    display: none;
+}
