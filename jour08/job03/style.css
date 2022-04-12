@@ -1,0 +1,44 @@
+section{
+    background-color:#88c1d0;
+    width: 200px;
+    height: 200px;
+    margin: 2%;
+}
+
+
+@media screen and (min-width: 1600px) 
+
+    {
+        div{
+            display:flex
+        }
+
+    }
+
+
+@media screen and (min-width: 768px) and (max-width:1599px)
+
+    {
+        div{
+            
+            width: 30%;
+            display: flex;
+            flex-wrap:wrap;
+            align-items: space-around;
+            
+        }
+    }
+    
+
+
+    @media screen and (max-width:767px)
+
+    {
+        div{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+    }
+    
